@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="EN">
+<meta charset="UTF-8">
+<html>
+  <head>
+    <title>USS Bowen Out @ Sea Forever and Ever!</title>
+    <meta property="og:image" content="img/USS_Bowen_FF-1079_ogImage.png"/>
+    <meta name="description" content="USS Bowen Out @ Sea Forever and Ever"/>
+	  <link rel="stylesheet" href="css/stylesheet1.css" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:title" content="USS Bowen FF-1079 Out At Sea Forever And Ever!">
+    <meta property="og:description" content="USS Bowen FF-1079 Out At Sea Forever And Ever!">
+	<!-- What the fuck you're looking at?! You got nothing better to do? Fuck off my site, fuckhead! -->
+
+  <style>
+
+    /* needed for sky */
+    .track span {
+      position: absolute;
+      top: -25px;
+      left: 0;
+      width: 64px;
+      height: 64px;
+      -webkit-transition: left 0.01s;
+      transition: left 0.01s;
+	    -moz-transition: left 0.01s;
+    }
+        
+    .ocean {
+      width: 100%;
+      height: 400px;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      position: relative;
+    }
+
+/* Begin boat section code changed*/
+    #boat {
+      width: 450px;
+      height: 245px;
+      background: url("img/ghostbowen3s.png") no-repeat;
+
+      position: absolute;
+
+      -webkit-animation-duration: 5s;
+      animation-duration: 5s;
+      -webkit-animation-name: boat;
+      animation-name: boat;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease;
+      animation-timing-function: ease;
+
+      -moz-animation-duration: 5s;
+      -moz-animation-name: boat;
+      -moz-animation-direction: alternate;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease;
+    }
+
+    @-webkit-keyframes boat {
+      from {
+        bottom: 50px;
+        right: 100px;
+      }
+
+      50% {
+        bottom: 30px;
+        right: 150px;
+      }
+
+      to {
+        bottom: 10px;
+        right: 190px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+
+    @keyframes boat {
+      from {
+        bottom: 50px;
+        right: 100px;
+      }
+
+      50% {
+        bottom: 30px;
+        right: 150px;
+      }
+
+      to {
+        bottom: 10px;
+        right: 190px;
+        -webkit-animation-timing-function: linear;
+      }
+    }    
+    
+		@-moz-keyframes boat {
+		  from {
+		    bottom: 50px;
+		    right: 100px;
+		  }
+
+		  50% {
+		    bottom: 30px;
+		    right: 150px;
+		  }
+
+		  to {
+		    bottom: 10px;
+		    right: 190px;
+		    -webkit-animation-timing-function: linear;
+		    -moz-animation-timing-function: linear;
+		  }
+		}
+/* End boat section */
+
+/* Begin wave section */
+   .wave {
+      width: 100%;
+      height: 150px;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .wave-blue {
+      background: url("img/wave-02c.png") repeat-x;
+      
+      -webkit-animation-duration: 5s;
+      animation-duration: 5s;
+      -webkit-animation-name: wave;
+      animation-name: wave;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+
+      -moz-animation-duration: 5s;
+      -moz-animation-name: wave;
+      -moz-animation-direction: alternate;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+    }
+    
+    .wave-light {
+      background: url("img/wave-01b.png") repeat-x;
+      
+      -webkit-animation-duration: 10s;
+      animation-duration: 10s;
+      -webkit-animation-name: wave;
+      animation-name: wave;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+
+      -moz-animation-duration: 10s;
+      -moz-animation-name: wave;
+      -moz-animation-direction: alternate;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+    }
+
+    @-webkit-keyframes wave {
+      0% {
+        background-position-x: 0;
+        background-position-y: 0; 
+      }
+      
+      20% {
+        background-position-x: 100px;
+        background-position-y: 30px;
+      }
+      
+      40% {
+        background-position-x: 200px;
+        background-position-y: 0;
+      }
+      
+      60% {
+        background-position-x: 100px;
+        background-position-y: 30px;
+      }
+      
+      80% {
+        background-position-x: 0;
+        background-position-y: 0;
+      }
+
+      100% {
+        background-position-x: -150px;
+        background-position-y: 20px;
+      }
+    }
+
+    @keyframes wave {
+      0% {
+        background-position-x: 0;
+        background-position-y: 0; 
+      }
+      
+      20% {
+        background-position-x: 100px;
+        background-position-y: 30px;
+      }
+      
+      40% {
+        background-position-x: 200px;
+        background-position-y: 0;
+      }
+      
+      60% {
+        background-position-x: 100px;
+        background-position-y: 30px;
+      }
+      
+      80% {
+        background-position-x: 0;
+        background-position-y: 0;
+      }
+
+      100% {
+        background-position-x: -150px;
+        background-position-y: 20px;
+      }
+    }
+
+
+    @-moz-keyframes wave {
+      0% {
+        background-position-x: 0;
+        background-position-y: 0; 
+      }
+      
+      20% {
+        background-position-x: 100px;
+        background-position-y: 30px;
+      }
+      
+      40% {
+        background-position-x: 200px;
+        background-position-y: 0;
+      }
+      
+      60% {
+        background-position-x: 100px;
+        background-position-y: 30px;
+      }
+      
+      80% {
+        background-position-x: 0;
+        background-position-y: 0;
+      }
+
+      100% {
+        background-position-x: -150px;
+        background-position-y: 20px;
+      }
+    }
+/* End wave section */
+
+/* Begin sky section code changed #ccf, #225 */
+
+  /* code changed */
+    @-webkit-keyframes sky {
+      from {
+	    background: #00d9ff; /* code changed */
+		/* background: #ccf; */
+      }
+      to {
+      background: #ff0077;
+        /* background: #eef;  #225; */
+      }
+    }
+
+    @keyframes sky {
+      from {
+	    background: #00d9ff; /* code changed */
+		/* background: #ccf; */
+      }
+      to {
+      background: #ff0077;
+        /* background: #eef;  #225; */
+      }
+    }
+    
+	@-moz-keyframes sky {
+    from {
+	    background: #00d9ff; /* code changed */
+		/* background: #ccf; */
+    }
+    to {
+    background: #ff0077;
+        /* background: #eef;  #225; */
+    }
+	}
+/* End sky section code changed #ccf, #225 */
+
+  </style>
+
+  </head>
+  <body>
+
+  <header>
+	<!-- code changed -->
+    <h1 style="color:yellow; font-weight: bold">USS Bowen - FF 1079 out @ Sea Forever and Ever</h1>
+
+    <section>
+    </section>
+
+    <section class="ocean">
+      <div class="wave wave-light"></div>  
+      <div id="boat"></div>
+      <div class="wave wave-blue"></div>
+    </section>
+  </header>
+ 
+  <section id="mainContainer">
+    <div></div>
+
+  </section>
+
+  <section id="messageContainer">
+    <p></p>
+    <audio controls loop>
+      <source src="audio/cut2.ogg">
+    </audio>
+    <h4 style= "color:whitesmoke">&nbsp;&nbsp;v.2022.02.14</h4>
+
+  </section>
+
+  </body>
+</html>

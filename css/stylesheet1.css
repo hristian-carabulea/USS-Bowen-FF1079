@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Alerta Stencil";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Alerta Stencil"), local("AlertaStencil"), url("../fonts/allerta-stencil-v11-latin-regular.woff") format("woff");
+  }
+  
+    
+/* contains background data including color of bottom part where the play button resides */
+body {
+  margin: 0;
+  padding: 0;
+  /* background: #0997a0; code changed #3F48CC */
+  background: #0000E6 ;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  -webkit-animation-duration: 42s;
+  animation-duration: 42s;
+  -webkit-animation-name: sky;
+  animation-name: sky;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+
+  -moz-animation-duration: 42s;
+  -moz-animation-name: sky;
+  -moz-animation-direction: alternate;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-out;
+
+}
+
+header h1 {
+  text-align: center;
+  color: #900;
+  font-weight: 400;
+  font-size: 2.0em;
+  font-family: "Alerta Stencil", Arial, sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  background: #0000E6;
+
+  /* background: rgba(255, 255, 255, 0.25); code changed */
+}
